@@ -1,0 +1,40 @@
+.containerDeslogged, .mainContainer, .mainContainer_Messages, .goodbyeMessage{
+    display: none;
+}
+
+.mainContainer, .containerLogged, .containerDeslogged{
+    border: 2px inset rgb(173, 173, 173);
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.goodbyeMessage{
+    border: 2px inset rgb(173, 173, 173);
+    width: 50%;
+    margin: 2rem auto;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.mainContainer_Messages{
+    border: 2px inset rgb(173, 173, 173);
+    width: 50%;
+    margin: 2rem auto;
+}
+#contentMessages{
+    display: none;
+}
+
+#contentMessages_body{
+    height: 20rem;
+    overflow-y: scroll;
+}
+
+#formDeslogged{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

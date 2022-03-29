@@ -1,0 +1,32 @@
+{
+  "name": "septimoDesafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "knex": "^0.95.15",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "normalizr": "^3.6.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
